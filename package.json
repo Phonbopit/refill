@@ -1,0 +1,23 @@
+{
+ "name": "@phonbopit/refill",
+ "version": "1.0.0",
+ "scripts": {
+  "dev": "microbundle watch",
+  "build": "microbundle",
+  "release": "np",
+  "test": "jest"
+ },
+ "devDependencies": {
+  "eslint": "4.19.1",
+  "eslint-config-prettier": "2.9.0",
+  "eslint-config-standard": "11.0.0",
+  "eslint-plugin-node": "6.0.1",
+  "eslint-plugin-prettier": "2.6.0",
+  "eslint-plugin-promise": "3.8.0",
+  "eslint-plugin-standard": "3.1.0",
+  "jest": "23.1.0",
+  "microbundle": "0.4.4",
+  "np": "3.0.4",
+  "prettier": "^1.13.5"
+ }
+}
