@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<If> should not show when false 1`] = `null`;
+
+exports[`<If> should render when true 1`] = `
+<h1>
+  You can see me :)
+</h1>
+`;
