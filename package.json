@@ -7,7 +7,7 @@
   "release": "np",
   "test": "jest",
   "prettier": "prettier --write '{src/**/*.js,test/**/*.js}'",
-  "prettier:watch": "onchange '{src/**/*.js,test/**/*.js}' -- prettier --write {{changed}}"
+  "prettier:watch": "onchange 'test/**/*.js' 'src/**/*.js' -- prettier --write {{changed}}"
  },
  "devDependencies": {
   "babel-core": "^6.26.3",
