@@ -1,35 +1,46 @@
 {
- "name": "@devahoy/refill",
- "version": "1.0.0",
- "main": "dist/index.js",
- "source": "src/helpers.js",
- "scripts": {
-  "dev": "microbundle watch",
-  "build": "microbundle",
-  "release": "np",
-  "test": "jest",
-  "prettier": "prettier --write '{src/**/*.js,test/**/*.js}'",
-  "prettier:watch": "onchange 'test/**/*.js' 'src/**/*.js' -- prettier --write {{changed}}"
- },
- "devDependencies": {
-  "babel-core": "^6.26.3",
-  "babel-preset-env": "^1.7.0",
-  "babel-preset-react": "^6.24.1",
-  "eslint": "4.19.1",
-  "eslint-config-prettier": "2.9.0",
-  "eslint-config-standard": "11.0.0",
-  "eslint-plugin-node": "6.0.1",
-  "eslint-plugin-prettier": "2.6.0",
-  "eslint-plugin-promise": "3.8.0",
-  "eslint-plugin-standard": "3.1.0",
-  "jest": "23.1.0",
-  "microbundle": "0.4.4",
-  "np": "3.0.4",
-  "onchange": "^4.1.0",
-  "prettier": "^1.13.5",
-  "react-test-renderer": "^16.4.1"
- },
- "dependencies": {
-  "react": "^16.4.1"
- }
+  "name": "@devahoy/refill",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "source": "src/helpers.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "release": "np",
+    "test": "jest",
+    "prettier": "prettier --write '{src/**/*.js,test/**/*.js}'",
+    "prettier:watch": "onchange 'test/**/*.js' 'src/**/*.js' -- prettier --write {{changed}}"
+  },
+  "author": {
+    "name": "Chai Phonbopit",
+    "email": "phonbopit@gmail.com",
+    "url": "devahoy.com"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "helpers",
+    "utils"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-standard": "3.1.0",
+    "jest": "23.1.0",
+    "microbundle": "0.4.4",
+    "np": "3.0.4",
+    "onchange": "^4.1.0",
+    "prettier": "^1.13.5",
+    "react-test-renderer": "^16.4.1"
+  },
+  "dependencies": {
+    "react": "^16.4.1"
+  }
 }
