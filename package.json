@@ -1,6 +1,6 @@
 {
   "name": "@phonbopit/refill",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "source": "src/helpers.js",
   "scripts": {
