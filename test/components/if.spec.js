@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import { If } from '../../src/components/If'
+import { If } from '../../src/helpers'
 
 it('<If> should render when true', () => {
   const component = (
