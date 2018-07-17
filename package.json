@@ -1,6 +1,8 @@
 {
  "name": "@phonbopit/refill",
  "version": "1.0.0",
+ "main": "dist/index.js",
+ "source": "src/helpers.js",
  "scripts": {
   "dev": "microbundle watch",
   "build": "microbundle",
