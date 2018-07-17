@@ -1,6 +1,6 @@
 {
   "name": "@phonbopit/refill",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "source": "src/helpers.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "email": "phonbopit@gmail.com",
     "url": "devahoy.com"
   },
+  "repository": "git@github.com:Phonbopit/refill.git",
   "keywords": [
     "react",
     "redux",
