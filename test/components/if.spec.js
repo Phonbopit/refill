@@ -5,7 +5,7 @@ import { If } from '../../src/components/If'
 
 it('<If> should render when true', () => {
   const component = (
-    <If render={true}>
+    <If when={true}>
       <h1>You can see me :)</h1>
     </If>
   )
@@ -16,7 +16,7 @@ it('<If> should render when true', () => {
 
 it('<If> should not show when false', () => {
   const component = (
-    <If render={false}>
+    <If when={false}>
       <h1>You can't see me :)</h1>
     </If>
   )

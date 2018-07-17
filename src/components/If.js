@@ -1,4 +1,4 @@
 import React from 'react'
 
-export const If = ({ render, children }) => render ? children : null
+export const If = ({ when, children }) => when ? children : null
 
