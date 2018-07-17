@@ -8,5 +8,13 @@ describe('createUrl()', () => {
 })
 
 describe('createActionSet()', () => {
-  test('it should create action set for redux', () => {})
+  test('it should create action set for redux', () => {
+    const ACTIONS = createActionSet('FETCH_USERS')
+
+    expect(ACTIONS).toEqual({
+      PENDING: 'FETCH_USERS_PENDING',
+      SUCCESS: 'FETCH_USERS_SUCCESS',
+      FAILED: 'FETCH_USERS_FAILED'
+    })
+  })
 })
