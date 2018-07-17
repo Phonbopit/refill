@@ -1,5 +1,5 @@
 {
- "name": "@phonbopit/refill",
+ "name": "@devahoy/refill",
  "version": "1.0.0",
  "main": "dist/index.js",
  "source": "src/helpers.js",
