@@ -2,6 +2,10 @@
 
 Refill : React and Redux Utilities function and Toolkits
 
+```
+yarn add @devahoy/refill
+```
+
 ## Usage
 
 ### If
