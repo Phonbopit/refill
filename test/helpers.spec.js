@@ -1,4 +1,4 @@
-const { createUrl, createActionSet, createReducers } = require('../src/helpers')
+import { createUrl, createActionSet, createReducers } from '../src/helpers'
 
 describe('createUrl()', () => {
   it('should replace template url with params', () => {
