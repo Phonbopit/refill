@@ -82,6 +82,7 @@ My CRUD App (small to medium size) always have app state structure like this:
 
 If we want to create reducers for user list, user detail, post list, post detail, blah blah. its alot of repeat the same code with just different action name then I decided to DRY my code like this.
 
+
 ```
 // reducers/users/index.js
 
@@ -103,18 +104,10 @@ export default createReducers(FETCH_USER_LIST)
 // reducers/users/detail.js
 export const initialState = {
   isFetching: false,
-  data: null,
+  data: {},
   error: null
 }
 
 export default createReducers(FETCH_USER_DETAIL, initialState)
 ```
 
-
-// TODO
-// createCommonReducers
-// createFormReducers
-// AuthenRoute
-// getCurrentUser()
-// setCurrentUser()
-// logout()
